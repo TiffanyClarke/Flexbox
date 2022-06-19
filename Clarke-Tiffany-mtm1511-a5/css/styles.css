@@ -1,0 +1,61 @@
+/*
+ * Add your own styles here
+ * Remember, no floats for layout!!
+ */
+ section {
+ 	width: 90%;
+ 	max-width: 1200px;
+ 	min-width: 800px;
+}
+ section section {
+ 	display: flex;
+}
+body {
+	background-color: black;
+}
+p{
+	color: pink;
+	padding: 5px;
+}
+#col-left,
+#col-right {
+	width: 25%;
+}
+
+#col-mid {
+	width: 50%;
+
+}
+#col-right {
+	order: 1; 
+}
+.wrap {
+	width: 1200px;
+	height: auto;
+	margin: 200px;
+}
+h1 {
+	font-size: 3em;
+	font-family: 'Anton', Berlin Sans FB Demi,  Arial Black; sans-serif;
+	color: pink;
+	text-align: center;
+	text-decoration: solid underline orange;
+}
+h2{
+	font-size: 2em;
+	color: orange;
+	font-family: 'Francois One', Rockwell, Arial Black; sans-serif;
+}
+article p {
+	font-size: 1.25em;
+	font-family: 'Shadows Into Light', Ink Free, Arial, Times New Roman, cursive;
+}
+footer p {
+	font-size: 1em;
+	font-family: 'Shadows Into Light', Ink Free, Arial, Times New Roman, cursive;
+	color: orange;
+	text-align: center;
+	padding: 15px;
+	border: 5px solid orange;
+	border-width: 100%;
+}
